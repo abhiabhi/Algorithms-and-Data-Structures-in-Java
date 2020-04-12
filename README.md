@@ -8,32 +8,32 @@ You can also refer to my [Java Notes](http://java.ramswaroop.me) for a quick ref
 
 ## Contents
 
-1. [Basic Practice](/src/main/java/com/rampatra/):  
-    1. [Arrays](/src/main/java/com/rampatra/arrays)
-    2. [Backtracking](/src/main/java/com/rampatra/backtracking)
-    3. [Bits](/src/main/java/com/rampatra/bits)
-    4. [Blockchain Demo](/src/main/java/com/rampatra/blockchain)
-    5. [Dynamic Programming](/src/main/java/com/rampatra/dynamicprogramming)
-    6. [Graphs](/src/main/java/com/rampatra/graphs)
-    7. [Java 8](/src/main/java/com/rampatra/java8) 
-    8. [Linked Lists](/src/main/java/com/rampatra/linkedlists)
-    9. [Miscellaneous](/src/main/java/com/rampatra/misc)
-    10. [Permutations](/src/main/java/com/rampatra/permutations)
-    11. [Searching](/src/main/java/com/rampatra/searching)
-    12. [Sorting](/src/main/java/com/rampatra/sorting)
-    13. [Stacks](/src/main/java/com/rampatra/stacks)
-    14. [Strings](/src/main/java/com/rampatra/strings)
-    15. [Threads](/src/main/java/com/rampatra/threads)
-    16. [Trees](/src/main/java/com/rampatra/trees)
-2. [Cracking the Coding Interview](/src/main/java/com/ctci):  
-    1. [Arrays and Strings](/src/main/java/com/ctci/arraysandstrings)
-    2. [Linked Lists](/src/main/java/com/ctci/linkedlists)
-    3. [Stacks and Queues](/src/main/java/com/ctci/stacksandqueues)
-    4. [Trees and Graphs](/src/main/java/com/ctci/treesandgraphs)
-    5. [Bit Manipulation](/src/main/java/com/ctci/bitmanipulation)
-    6. [Recursion and DP](/src/main/java/com/ctci/recursionanddp)
-3. [LeetCode](/src/main/java/com/leetcode).
-4. [HackerRank](/src/main/java/com/hackerrank).
+1. [Basic Practice](/com/backup/rampatra/):  
+    1. [Arrays](/com/backup/rampatra/arrays)
+    2. [Backtracking](/com/backup/rampatra/backtracking)
+    3. [Bits](/com/backup/rampatra/bits)
+    4. [Blockchain Demo](/com/backup/rampatra/blockchain)
+    5. [Dynamic Programming](/com/backup/rampatra/dynamicprogramming)
+    6. [Graphs](/com/backup/rampatra/graphs)
+    7. [Java 8](/com/backup/rampatra/java8) 
+    8. [Linked Lists](/com/backup/rampatra/linkedlists)
+    9. [Miscellaneous](/com/backup/rampatra/misc)
+    10. [Permutations](/com/backup/rampatra/permutations)
+    11. [Searching](/com/backup/rampatra/searching)
+    12. [Sorting](/com/backup/rampatra/sorting)
+    13. [Stacks](/com/backup/rampatra/stacks)
+    14. [Strings](/com/backup/rampatra/strings)
+    15. [Threads](/com/backup/rampatra/threads)
+    16. [Trees](/com/backup/rampatra/trees)
+2. [Cracking the Coding Interview](/com/backup/ctci):  
+    1. [Arrays and Strings](/com/backup/ctci/arraysandstrings)
+    2. [Linked Lists](/com/backup/ctci/linkedlists)
+    3. [Stacks and Queues](/com/backup/ctci/stacksandqueues)
+    4. [Trees and Graphs](/com/backup/ctci/treesandgraphs)
+    5. [Bit Manipulation](/com/backup/ctci/bitmanipulation)
+    6. [Recursion and DP](/com/backup/ctci/recursionanddp)
+3. [LeetCode](/com/backup/leetcode).
+4. [HackerRank](/com/backup/hackerrank).
 
 
 ## Environment
