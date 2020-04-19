@@ -1,6 +1,8 @@
 package com.arrays;
 
 /**
+ * https://onedrive.live.com/redir?resid=26052E8C3C647484%21105&page=Edit&wd=target%28Programs.one%7C6d1885b7-0ca6-4a4e-81df-92e3ac05fb6f%2FStockBuySellMaximizeProfit%7C9427c9b7-0a0a-41ec-b618-85ab5bbc1447%2F%29&wdorigin=703
+ *
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/solution/
  * Approach-3
  *
@@ -28,7 +30,9 @@ package com.arrays;
  * Time complexity : O(n). Single pass.
  *
  * Space complexity: O(1). Constant space needed.
- */
+ *
+ *
+ * */
 public class StockBuySellToMaximizeProfit_PeakValleyApproach {
 
     public static int maxProfit(int[] prices) {
