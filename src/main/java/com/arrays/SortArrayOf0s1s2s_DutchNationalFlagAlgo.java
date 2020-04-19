@@ -1,6 +1,8 @@
 package com.arrays;
 
 /*
+ Dutch National Flag Algorithm, or 3-way Partitioning
+
 Sort an array of 0s, 1s and 2s
 Given an array A[] consisting 0s, 1s and 2s.
 The task is to write a function that sorts the given array.
