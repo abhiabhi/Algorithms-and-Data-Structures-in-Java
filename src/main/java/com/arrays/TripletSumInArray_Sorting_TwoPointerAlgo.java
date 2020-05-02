@@ -33,8 +33,8 @@ public class TripletSumInArray_Sorting_TwoPointerAlgo {
 
     public static void find_all_triplets(int[] arr, int sum) {
 
-        // sort array elements
-        Arrays.sort(arr);  /*important*/
+        /**sort array elements*/
+        Arrays.sort(arr);  /**important*/
 
         int n = arr.length;
         int left;
