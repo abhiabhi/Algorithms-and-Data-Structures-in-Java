@@ -25,21 +25,21 @@ import java.util.Arrays;
 public class InversionCountInArray_MergeSort {
 
     // Merge two sorted subarrays arr[low .. mid] and arr[mid + 1 .. high]
-    public static int merge(int[] arr, int leftIndex, int midIndex, int rightIndex) {
+    public static int merge(int[] arr, int start, int mid, int end) {
         // Left subarray
-        int[] left = Arrays.copyOfRange(arr, leftIndex, midIndex + 1);
+        int[] left = Arrays.copyOfRange(arr, start, mid + 1);
 
         // Right subarray
-        int[] right = Arrays.copyOfRange(arr, midIndex + 1, rightIndex + 1);
+        int[] right = Arrays.copyOfRange(arr, mid + 1, end + 1);
 
-        int leftCursor = 0, rightCursor = 0, current = leftIndex, swaps = 0;
+        int leftCursor = 0, rightCursor = 0, current = start, swaps = 0;
 
         while (leftCursor < left.length && rightCursor < right.length) {
             if (left[leftCursor] <= right[rightCursor])
                 arr[current++] = left[leftCursor++];
             else {
                 arr[current++] = right[rightCursor++];
-                swaps += (midIndex + 1) - (leftIndex + leftCursor);  /**important*/
+                swaps += mid + 1 - leftCursor; /**important*/
             }
         }
 
