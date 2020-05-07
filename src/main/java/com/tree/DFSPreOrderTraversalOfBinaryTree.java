@@ -28,7 +28,6 @@ public class DFSPreOrderTraversalOfBinaryTree {
      */
     public static void preOrderStack(TreeNode root) {
         Stack<TreeNode> s = new Stack<TreeNode>();
-
         while (true) {
             // First print the root node and then add left node
             while (root != null) {
