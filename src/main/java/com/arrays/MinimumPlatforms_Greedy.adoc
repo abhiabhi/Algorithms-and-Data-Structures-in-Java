@@ -1,0 +1,1 @@
+image::../../../images/MinimumPlatforms_Greedy.png[]

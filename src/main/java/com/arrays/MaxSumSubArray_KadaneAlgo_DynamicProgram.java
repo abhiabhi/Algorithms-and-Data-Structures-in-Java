@@ -1,5 +1,5 @@
 package com.arrays;
-/*
+/**
 
 Dynamic programming solves a problem by dividing it into smaller subproblems. This is very similar to the divide-and-conquer algorithm solving technique.
  The major difference, however, is that dynamic programming solves a subproblem only once.
@@ -13,13 +13,13 @@ which uses less CPUs and generally makes your code run faster.
 
 Complexity of finding largest sum subarray in an array is O(N) in time and O(1) in space.
 
-    */
+ */
 
 public class MaxSumSubArray_KadaneAlgo_DynamicProgram {
 
     public static void main(String[] args) {
 
-        int[] arr = {-1, 3, -5, 4, 6, -1, 2, -7, 3, -3};
+        int[] arr = {-1, -3, -5, -4, -1, -1, -2, -7, -3, -3};
 
         int[] result = findMaxSumIndex(arr);
         System.out.println("start index :" + result[0]);

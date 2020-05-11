@@ -1,0 +1,18 @@
+image::../../../images/KDistanceFromGivenNode.png[]
+*We will do level by level search in tree which is a graph*
+
+image::../../../images/KDistanceFromGivenNode1.png[]
+image::../../../images/KDistanceFromGivenNode2.png[]
+image::../../../images/KDistanceFromGivenNode3.png[]
+
+*Time and Space Complexity*
+
+*M = # of Edges*
+*N = # of Nodes*
+
+**in a binary tree no of edges are nodes-1
+**
+
+image::../../../images/KDistanceFromGivenNode4.png[]
+image::../../../images/KDistanceFromGivenNode5.png[]
+image::../../../images/KDistanceFromGivenNode6.png[]

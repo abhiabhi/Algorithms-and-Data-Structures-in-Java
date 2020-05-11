@@ -19,7 +19,8 @@ import java.util.Arrays;
  * <p>
  * <p>
  * Complexity Analysis:
- * Time Complexity: O(n log n), The algorithm used is divide and conquer, So in each level one full array traversal is needed and there are log n levels so the time complexity is O(n log n).
+ * Time Complexity: O(n log n), The algorithm used is divide and conquer,
+ * So in each level one full array traversal is needed and there are log n levels so the time complexity is O(n log n).
  * Space Compelxity:O(1), No extra space is required.
  */
 public class InversionCountInArray_MergeSort {
