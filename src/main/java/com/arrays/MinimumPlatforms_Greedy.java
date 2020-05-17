@@ -48,7 +48,7 @@ public class MinimumPlatforms_Greedy {
         while (i < n && j < n) { /** end the loop when any one iterator completes any one array.*/
             // If next event in sorted order is arrival,
             // increment count of platforms needed
-            if (arr[i] <= dep[j])  /**means one more train can before any train could depart so increment the max_platfroms */ {
+            if (arr[i] <= dep[j])  /**means one more train came before any train could depart so increment the max_platfroms */ {
                 max_platforms_so_far++;
                 i++;
 

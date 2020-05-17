@@ -26,6 +26,13 @@ import java.util.Set;
 public class IntersectionOfTwoLinkedLists {
 
     //Approach 2: Hash Table (10ms)
+
+    /** Space -> O(n)  where n is the size of first linked list as we are storing in HashSet
+     *  Time -> O(n+m) as we traverse the complete list once. n size of first list & m size of second list.
+     * @param headA
+     * @param headB
+     * @return
+     */
     public Node getIntersectionNode(Node headA, Node headB) {
         Set<Node> nodes = new HashSet<>();
         Node pa = headA;

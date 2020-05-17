@@ -25,9 +25,11 @@ public class ParenthesisChecker {
         for (int i = 0; i < s.length(); i++) {
             char curr = s.charAt(i);
 
-            if (map.keySet().contains(curr)) {
+            if (map.keySet().contains(curr)) { /**if the character is in keySet means its opening brace
+                                                    we push it onto the Stack*/
                 stack.push(curr);
-            } else if (map.values().contains(curr)) {
+            } else if (map.values().contains(curr)) { /** if character is in values means its closing brace
+                                                           so we pop it out and check with curr */
                 if (!stack.empty() && map.get(stack.peek()) == curr) {
                     stack.pop();
                 } else {

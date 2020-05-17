@@ -39,7 +39,7 @@ class GetMinimumFromStackInConstantTime {
     public void push(int x) {
         if (head == null) {
             head = new Node(x, x);
-        } else {
+        } else { /**important*/
             Node newNode = new Node(x, Math.min(x, head.min));
             newNode.next = head;
             head = newNode;

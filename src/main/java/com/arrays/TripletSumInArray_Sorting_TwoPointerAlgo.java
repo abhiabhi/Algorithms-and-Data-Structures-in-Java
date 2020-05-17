@@ -40,8 +40,8 @@ public class TripletSumInArray_Sorting_TwoPointerAlgo {
         int left;
         int right;
         for (int i = 0; i < n - 2; i++) {
-            left = i + 1;
-            right = n - 1;
+            left = i + 1; //cursor starting from front
+            right = n - 1; // cursor starting from end
             while (left < right) {
                 int tempSum = arr[i] + arr[left] + arr[right];
                 if (tempSum == sum) {

@@ -44,7 +44,7 @@ class FindLongestWordInDictionary
         }
 
         // If all characters of str1
-        // were found in str2
+        // were found in str2 . All characters of dictionary word are present in given String
         return (j == m);
     }
 
