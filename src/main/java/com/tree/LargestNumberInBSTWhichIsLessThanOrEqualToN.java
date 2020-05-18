@@ -24,7 +24,7 @@ public class LargestNumberInBSTWhichIsLessThanOrEqualToN {
         tree.right.right = new TreeNode(35);
         tree.left.left.left = new TreeNode(4);
 
-        System.out.println("MaxValueLessThanN : " + findMaxValueLessThanN(tree,20));
+        System.out.println("MaxValueLessThanN : " + findMaxValueLessThanN(tree,7));
     }
 
     //Iterative Solution
