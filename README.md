@@ -1,3 +1,5 @@
+#To read a.doc files download intellij plugin asciidoc.
+
 # Algorithms and Data Structures in Java
 
 The repo consists of solutions to numerous problems using different data structures and algorithms, all coded in Java. It also
