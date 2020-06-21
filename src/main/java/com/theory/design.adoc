@@ -1,0 +1,7 @@
+image::../../../images/uml.png[]
+image::../../../images/class.png[]
+image::../../../images/classdia.png[]
+image::../../../images/solidPrinciple.png[]
+image::softwareArchitecture.png[]
+image::StrategyPattern.png[]
+

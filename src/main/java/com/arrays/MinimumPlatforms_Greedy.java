@@ -35,6 +35,14 @@ public class MinimumPlatforms_Greedy {
     // Returns minimum number of platforms required
     static int findPlatform(int arr[], int dep[], int n) {
 
+        //Edge case for input.
+        if (arr.length==0){
+            return 0;
+        }
+        if(dep.length==0){
+            return arr.length;
+        }
+
         /**important*/
         // Sort arrival and departure arrays
         Arrays.sort(arr);
@@ -48,7 +56,7 @@ public class MinimumPlatforms_Greedy {
         while (i < n && j < n) { /** end the loop when any one iterator completes any one array.*/
             // If next event in sorted order is arrival,
             // increment count of platforms needed
-            if (arr[i] <= dep[j])  /**means one more train came before any train could depart so increment the max_platfroms */ {
+            if (arr[i] <= dep[j]) { /**means one more train came before any train could depart so increment the max_platfroms */
                 max_platforms_so_far++;
                 i++;
 

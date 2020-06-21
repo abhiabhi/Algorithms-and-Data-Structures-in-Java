@@ -1,0 +1,8 @@
+ he bitwise method evaluates the binary representation of the values of the two inputs. For each bit in the binary representation, a Boolean Exclusive Or is performed. In the Boolean evaluation, if one of the input values for the bit is true and the other is false, the output is one for the bit; if both input values are true or if both are false, the output is zero for the bit. When one or both input values are NoData, the bitwise expression outputs NoData.
+For example, the input values for a particular cell location on two rasters are 5 and 3. The Boolean Exclusive Or is performed, producing a new binary value. When the value of this number is printed as a decimal integer, its base10 value is assigned to the output. The example below is of an 8-bit integer.
+
+Value	Binary representation
+Input 1	5	00000101
+Input 2	3	00000011
+(Bitwise XOr)
+Output	6	00000110
